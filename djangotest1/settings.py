@@ -118,5 +118,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "statics"),
 )
 
+# media
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "apptest1", "image", "uploud")
